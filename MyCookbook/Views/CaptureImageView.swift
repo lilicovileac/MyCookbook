@@ -8,6 +8,8 @@
 
 import SwiftUI
 
+// Implementation made  using https://www.iosapptemplates.com/blog/swiftui/photo-camera-swiftui  tutorial 
+
 struct CaptureImageView {
   @Binding var isShown: Bool
   @Binding var image: Image?

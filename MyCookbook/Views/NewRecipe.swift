@@ -71,7 +71,7 @@ struct NewRecipe: View {
                         Button(action: {
                       self.showCaptureImageView.toggle()
                         }) {
-                            Text("Choose photos")
+                            Text("Take a photo")
                         }
                         
                      image?.resizable()
