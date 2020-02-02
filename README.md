@@ -22,3 +22,4 @@ si [Tutorialele propuse de apple](https://developer.apple.com/tutorials/swiftui/
 
 Pentru Image-capture functionality  a fost folosit [urmatorul link](https://www.iosapptemplates.com/blog/swiftui/photo-camera-swiftui )
 
+![alt text](https://github.com/lilicovileac/MyCookbook/blob/master/IMG_6536.PNG)
