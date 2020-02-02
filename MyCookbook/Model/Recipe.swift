@@ -22,7 +22,7 @@ struct Recipe: Hashable, Codable, Identifiable {
     init(){
         id = Int.random(in: 1...100)
         name = ""
-        imageName = ""
+        imageName = "noimage"
         category = ""
         description = ""
     }

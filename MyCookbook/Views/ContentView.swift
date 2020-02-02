@@ -11,14 +11,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView{
-            
-            Text("Timer to be developed")
-                .tabItem{
-                    VStack{
-                        Image("clock")
-                        Text("Timer")
-                    }
-            }.tag(1)
+//            this is another tabitem which should contain a timer, due to time contraints i did not have enoth time to create it
+//            Text("Timer to be developed")
+//                .tabItem{
+//                    VStack{
+//                        Image("clock")
+//                        Text("Timer")
+//                    }
+//            }.tag(1)
             
             HomeView()
                 .tabItem{
@@ -26,7 +26,7 @@ struct ContentView: View {
                         Image("home")
                         Text("Home")
                     }
-            }.tag(2)
+            }.tag(1)
             
             NewRecipe()
                 .tabItem{
@@ -34,7 +34,7 @@ struct ContentView: View {
                         Image("plus")
                         Text("Add a recipe")
                     }
-            }.tag(3)
+            }.tag(2)
             
         }
     }

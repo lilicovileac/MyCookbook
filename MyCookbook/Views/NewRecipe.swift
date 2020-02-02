@@ -10,6 +10,7 @@ import SwiftUI
 
 struct NewRecipe: View {
 
+    
     @State private var recipe = Recipe()
     let myCategories:[String] = ["food", "drink"]
     @State private var pickerSelection = 0
@@ -85,6 +86,7 @@ struct NewRecipe: View {
                     if (showCaptureImageView) {
                         CaptureImageView(isShown: $showCaptureImageView, image: $image)
                     .aspectRatio(contentMode: .fill)
+                        
                     
 
                     
@@ -96,9 +98,10 @@ struct NewRecipe: View {
                 
                 Section {
                     Button(action: {
-                        
+                        self.recipe.id = Int.random(in: 1...1000)
                         self.recipe.category = self.myCategories[self.pickerSelection]
                         self.recipe.ingredients = self.addedIngredients
+                        EncodeRecipe(recipe: self.recipe)
                         
                         print(self.recipe.name,  self.recipe.category, self.recipe.description, self.recipe.imageName)
                        // print(self.image!)
