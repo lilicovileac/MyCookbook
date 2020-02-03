@@ -26,7 +26,5 @@ Pentru a implementa Timerul am folosit urmatorul [tutorial](https://medium.com/b
 
 #### Screenshots
 
-![alt text](https://github.com/lilicovileac/MyCookbook/blob/master/IMG_6539.PNG)
-![alt text](https://github.com/lilicovileac/MyCookbook/blob/master/IMG_6540.PNG)
-![alt text](https://github.com/lilicovileac/MyCookbook/blob/master/IMG_6538.PNG)
+![alt text](https://github.com/lilicovileac/MyCookbook/blob/master/IMG_6539.PNG) ![alt text](https://github.com/lilicovileac/MyCookbook/blob/master/IMG_6540.PNG) ![alt text](https://github.com/lilicovileac/MyCookbook/blob/master/IMG_6538.PNG)
 ![alt text](https://github.com/lilicovileac/MyCookbook/blob/master/IMG_6536.PNG)
