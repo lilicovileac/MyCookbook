@@ -22,8 +22,11 @@ si [Tutorialele propuse de apple](https://developer.apple.com/tutorials/swiftui/
 
 Pentru Image-capture functionality  a fost folosit [urmatorul link](https://www.iosapptemplates.com/blog/swiftui/photo-camera-swiftui )
 
+Pentru a implementa Timerul am folosit urmatorul [tutorial](https://medium.com/better-programming/make-a-simple-countdown-with-timer-and-swiftui-3ce355b54986)
+
 #### Screenshots
 
-![alt text](https://github.com/lilicovileac/MyCookbook/blob/master/IMG_6531.PNG)
+![alt text](https://github.com/lilicovileac/MyCookbook/blob/master/IMG_6538.PNG)
+![alt text](https://github.com/lilicovileac/MyCookbook/blob/master/IMG_6539.PNG)
+![alt text](https://github.com/lilicovileac/MyCookbook/blob/master/IMG_6540.PNG)
 ![alt text](https://github.com/lilicovileac/MyCookbook/blob/master/IMG_6536.PNG)
-![alt text](https://github.com/lilicovileac/MyCookbook/blob/master/IMG_6537.PNG)
