@@ -10,32 +10,15 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var nowDate: Date = Date()
-    var referenceDate:Date = Date(timeIntervalSinceNow: 900)
-    
-    
-    //instantiates a default timer of 15 min which is 900 minutes
-       var timer: Timer {
-           Timer.scheduledTimer(withTimeInterval: 1, repeats: true) {_ in
-               self.nowDate = Date()
-           }
-       }
-    
     var body: some View {
         TabView{
-//            this is another tabitem which should contain a timer, due to time contraints i did not have enoth time to create it
-            
-            Text(countDownString(from: referenceDate))
-            .font(.largeTitle)
-            .onAppear(perform: {
-                _ = self.timer
-            })
+            TimerCountdown()
                 .tabItem{
                     VStack{
                         Image("clock")
                         Text("Timer")
                     }
-            }.tag(1)
+            }.tag(0)
             
             HomeView()
                 .tabItem{
@@ -53,20 +36,9 @@ struct ContentView: View {
                     }
             }.tag(2)
             
-        }
+        }.edgesIgnoringSafeArea(.top)
     }
     
-    func countDownString(from date: Date) -> String {
-        let calendar = Calendar(identifier: .gregorian)
-        let components = calendar
-            .dateComponents([.hour, .minute, .second],
-                            from: nowDate,
-                            to: referenceDate)
-        return String(format: "%02dh:%02dm:%02ds",
-                      components.hour ?? 00,
-                      components.minute ?? 00,
-                      components.second ?? 00)
-    }
 
 }
 

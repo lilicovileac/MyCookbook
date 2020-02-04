@@ -18,6 +18,8 @@ struct NewRecipe: View {
     @State var showCaptureImageView: Bool = false
     @State private var newIngredient = ""
     @State private var addedIngredients:[String] = []
+    @State private var showingAlert = false
+
     
     
     var body: some View {
@@ -103,9 +105,11 @@ struct NewRecipe: View {
                         self.recipe.ingredients = self.addedIngredients
                         EncodeRecipe(recipe: self.recipe)
                         
-                        print(self.recipe.name,  self.recipe.category, self.recipe.description, self.recipe.imageName)
-                       // print(self.image!)
-                        print(self.recipe.ingredients)
+                         self.showingAlert = true
+                        
+                        
+                        
+                       
                             }) {
                                 HStack(spacing: 2.0) {
                                     Spacer()
@@ -118,8 +122,11 @@ struct NewRecipe: View {
                                     .cornerRadius(15.0)
                                     Spacer()
                                 }
+                                
                             }
                     .accentColor(.green)
+                    .alert(isPresented: $showingAlert) {
+                        Alert(title: Text("Success"), message: Text("A new recipe has been added"), dismissButton: .default(Text("Cool!")))
                 }
             
             
@@ -128,7 +135,8 @@ struct NewRecipe: View {
         }
 
     }}
-
+}
+    
 struct NewRecipe_Previews: PreviewProvider {
    
     
