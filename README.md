@@ -8,7 +8,7 @@ Autor: Liliana Covileac
 
 Descriere: 
 
-My Cook Book – aplicație ce rulează pe sistemul IOS versiunea >=13, îți permite să adaugi recetele favorite pentru a le avea la îndemână oricând.
+MyCookbook – aplicație ce rulează pe sistemul IOS versiunea >=13, îți permite să adaugi recetele favorite pentru a le avea la îndemână oricând.
 Aplicația permite adăugarea ingredientelor, gramajului necesar și a unei descrieri ample a procesului de gătire, acestea fiind convertite în format JSON și stocate în memoria telefonului. Această particularitate permite folosirea aplicației fără o conexiune la internet(WiFi/4g) ceia ce reprezintă un avantaj dacă îți lipseste conexiunea.
 	De asemenea permite adăugarea unei imagini pentru fiecare recetă ce este stocată direct în telefon. Unul din cele mai importante elemente al aplicației îl constitue timerul integrat care îți permite să ții cont de timpul necesar pentru a avea un rezultat nemaipomenit.
 	Aplicația este compatibilă cu inovația de anul asta a companiei Apple – dark mode.
