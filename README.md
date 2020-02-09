@@ -12,7 +12,7 @@ MyCookbook – aplicație ce rulează pe sistemul IOS versiunea >=13, îți perm
 Aplicația permite adăugarea ingredientelor, gramajului necesar și a unei descrieri ample a procesului de gătire, acestea fiind convertite în format JSON și stocate în memoria telefonului. Această particularitate permite folosirea aplicației fără o conexiune la internet(WiFi/4g) ceia ce reprezintă un avantaj dacă îți lipseste conexiunea.
 	De asemenea permite adăugarea unei imagini pentru fiecare recetă ce este stocată direct în telefon. Unul din cele mai importante elemente al aplicației îl constitue timerul integrat care îți permite să ții cont de timpul necesar pentru a avea un rezultat nemaipomenit.
 	Aplicația este compatibilă cu inovația de anul asta a companiei Apple – dark mode.
-Chiar dacă țiai pierdut memoria – My Cook Book te va ajuta pas cu pas să pregătești cele mai iubite delicii pentru stomacul tău și celor dragi!
+
 
 
 Pe ce sistem de operare ruleaza: iOS, 
